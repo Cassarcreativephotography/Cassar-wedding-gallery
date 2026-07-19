@@ -1,9 +1,8 @@
 # Mr & Mrs Wheeler — Wedding Sneak Peek
 
-A luxury wedding sneak-peek gallery by Cassar Creative Photography.
+Wedding date: 18 July 2026
 
-**Wedding date:** 18 July 2026
+This version is configured for the 26 numbered photographs uploaded directly into the repository root:
+`01.jpeg` through `26.jpeg`.
 
-This finished package contains 26 unique photographs. Three repeated uploads were removed so the gallery does not show duplicate images.
-
-The cover image is stored as `images/hero.jpeg`.
+The hero cover image is `22.jpeg`.

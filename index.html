@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mr & Mrs Wheeler — wedding sneak peek by Cassar Creative Photography">
+  <title>Mr & Mrs Wheeler | Wedding Sneak Peek</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="loading-screen"><div class="loading-mark">CASSAR</div></div>
+
+  <header class="hero" id="top">
+    <img class="hero-image" src="images/hero.jpeg" alt="Mr and Mrs Wheeler on their wedding day">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Cassar Creative Photography</p>
+      <h1>Mr &amp; Mrs Wheeler</h1>
+      <p class="date">18 July 2026</p>
+      <p class="hero-copy">A first glimpse into your beautiful wedding story.</p>
+      <button class="enter-button" data-scroll-to="welcome">Enter Gallery</button>
+    </div>
+    <a class="scroll-cue" href="#welcome">↓</a>
+  </header>
+
+  <main>
+    <section class="welcome reveal" id="welcome">
+      <p class="eyebrow">Your Sneak Peek</p>
+      <h2>A little preview of a day filled with love, laughter and unforgettable memories.</h2>
+      <p>Congratulations, Mr &amp; Mrs Wheeler. Thank you for trusting me to capture one of the most important days of your lives. These first photographs are a small preview while I carefully hand-edit the rest of your wedding story.</p>
+    </section>
+
+    <section class="gallery" id="gallery"></section>
+
+    <section class="quote-section reveal">
+      <blockquote>“Sometimes the smallest moments become the memories we treasure the most.”</blockquote>
+    </section>
+
+    <section class="thank-you reveal">
+      <p class="eyebrow">With love</p>
+      <h2>Thank you, Mr &amp; Mrs Wheeler</h2>
+      <p>Thank you for allowing me to preserve your beautiful wedding day. I hope these photographs bring every smile, laugh and heartfelt moment rushing back.</p>
+      <p class="signature">Kayla<br><span>Cassar Creative Photography</span></p>
+      <p class="full-gallery-note">Your full gallery is coming soon…</p>
+    </section>
+  </main>
+
+  <footer>
+    <p class="footer-brand">Cassar Creative Photography</p>
+    <div class="footer-links">
+      <a href="mailto:cassarcreatives@gmail.com">Email</a>
+      <a href="https://www.instagram.com/ccreativesphotography/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+    </div>
+    <p class="promise">Every image is individually hand-edited with care, keeping your memories timeless and authentic.</p>
+  </footer>
+
+  <dialog id="lightbox">
+    <button class="lightbox-close">×</button>
+    <button class="lightbox-prev">‹</button>
+    <img id="lightbox-image" alt="">
+    <button class="lightbox-next">›</button>
+  </dialog>
+
+  <button class="back-to-top" data-scroll-to="top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
